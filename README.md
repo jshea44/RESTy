@@ -1,9 +1,10 @@
-# React + Vite
+# RESTY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Lab 26
 
-Currently, two official plugins are available:
+This is a front-end application focusing on React. It provides a UI for a user to make RESTful API
+calls.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# resty
+## UML
+
+![whiteboard](./Screenshot%202023-10-23%20at%202.24.14 PM.png)
