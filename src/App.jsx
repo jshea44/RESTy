@@ -16,7 +16,7 @@ function App(props) {
   const [dataObj, setData] = useState({});
   const [requestParamsObj, setRequestParams] = useState({});
 
-  function callApi(dataObj, requestParamsObj) {
+  function callApi(requestParamsObj) {
     // mock output
     const data = {
       count: 2,
@@ -25,7 +25,6 @@ function App(props) {
         { name: 'fake thing 2', url: 'http://fakethings.com/2' },
       ],
     };
-    // this.setState({data, requestParams});
     setData({ ...dataObj, data });
     setRequestParams({ ...requestParamsObj, requestParamsObj });
   }
