@@ -27,8 +27,10 @@ function Form(props) {
       <form onSubmit={handleSubmit}>
         <label>
           <span>URL: </span>
-          <input name="url" type="text" />
-          <button type="submit">GO!</button>
+          <input name="url" data-testid="form-input" type="text" />
+          <button data-testid="form-button" type="submit">
+            GO!
+          </button>
         </label>
         <label className="methods">
           <span
